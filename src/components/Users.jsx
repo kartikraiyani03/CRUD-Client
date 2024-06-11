@@ -17,7 +17,7 @@ const Users = () => {
 
     let handleDelete = (id) =>
     {
-        axios.delete('http://localhost:3000/delete/'+id)
+        axios.delete('https://crud-client-seven.vercel.app/delete/'+id)
         .then(users =>{ 
           console.log(users)
           window.location.reload()
