@@ -13,7 +13,7 @@ const Create = () => {
   let handleSubmit = (e) =>
   {
       e.preventDefault()
-      axios.post("http://localhost:3000/create",{name,email,age})
+      axios.post("https://crud-client-seven.vercel.app/create",{name,email,age})
       .then(res =>
       {  
         console.log(res.data)
