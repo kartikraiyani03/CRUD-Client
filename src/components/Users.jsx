@@ -10,7 +10,7 @@ const Users = () => {
 
   useEffect(() =>
   {
-    axios.get("http://localhost:3000")
+    axios.get("https://crud-client-seven.vercel.app/")
     .then(users => setUsers(users.data))
     .catch(e => console.log(e))
   },[])
