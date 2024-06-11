@@ -16,7 +16,7 @@ const Update = () => {
 
     useEffect(() =>
     {
-      axios.get("http://localhost:3000/getUser/"+id)
+      axios.get("https://crud-client-seven.vercel.app/getUser/"+id)
       .then(users => 
       {
           console.log(users)
